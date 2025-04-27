@@ -1,0 +1,20 @@
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore operating system files (macOS example)
+.DS_Store
+
+# Ignore .env for storing sensitive data
+.env
