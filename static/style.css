@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #1A1A2E;
+    color: #EDEDED;
+}
+h1 {
+    color: #fdfdfd;
+    font-size: 42px;
+}
+.form-container {
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #7F5AF0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #6843D6;
+}
+.message {
+    margin-top: 20px;
+    color: #868686;
+}

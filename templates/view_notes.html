@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Notes</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <h1>All Notes</h1>
+
+    <div class="notes-container">
+        {% for note in notes %}
+            <div class="note-card">
+                <p><strong>Note ID:</strong> {{ note[0] }}</p>
+                <p><strong>Content:</strong> {{ note[1] }}</p>
+                <p><em>Created at:</em> {{ note[2] }}</p>
+            </div>
+            <hr>
+        {% endfor %}
+    </div>
+
+    <div class="nav-buttons">
+        <a href="/"><button>Back to Home</button></a>
+    </div>
+</body>
+</html>

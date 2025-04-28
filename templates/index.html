@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Base</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <h1>Welcome to the Knowledge Base</h1>
+
+    <div class="form-container">
+        <h3>Add a Note</h3>
+        <form action="/add_note" method="POST">
+            <label for="content">Note Content:</label><br>
+            <input type="text" id="content" name="content" placeholder="Enter your note here" required><br><br>
+            <button type="submit">Add Note</button>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <h3>Add an Article URL</h3>
+        <form action="/add_article" method="POST">
+            <label for="url">Article URL:</label><br>
+            <input type="text" id="url" name="url" placeholder="Enter article URL" required><br><br>
+            <button type="submit">Add Article</button>
+        </form>
+    </div>
+
+    <div class="nav-buttons">
+        <a href="/view_notes"><button>View All Notes</button></a>
+    </div>
+
+</body>
+</html>
